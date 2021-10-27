@@ -1,0 +1,127 @@
+body{
+    background:  #f2f2f2 ;
+}
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+header .logo h2,
+header .logo p{
+    font-size: 20px;
+    display: inline-block;
+}
+header .logo .icono{
+    color: #bfbfbf;
+}
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+header .logo p{
+    color: #777777;
+}
+header .menu .c1{background: #53a6c0 ;}
+header .menu .c2{background:  #128081;}
+header .menu .c3{background:  #168c6e;}
+
+
+header .menu .c1:hover{background: #2b7f9a ;}
+header .menu .c2:hover{background:  #0f6364;}
+header .menu .c3:hover{background:  #126c55;}
+
+.portafolio{
+    border-top: 5px solid #128081 ;
+    background: #fff;
+}
+.portafolio .titulo{
+    color: #128081 ;
+}
+.portafolio .galeria .contenedor-imagen{
+    max-height: 180px;
+    overflow: hidden;
+}
+.portafolio .galeria .contenedor-imagen a{
+    background: #128081;
+    display: inline-block;
+}
+.portafolio .galeria .contenedor-imagen:hover img{
+    opacity: .3;
+}
+
+
+/*Acerca de*/
+.acerca-de .info .titulo{
+    color: #128081;
+    margin-bottom: 30px;
+}
+.acerca-de .info .label{
+    color: #128081;
+    font-weight: bold;
+}
+.acerca-de .info .progress{
+    background: #606167
+    ;
+}
+.acerca-de .info .progress .progress-bar{
+    background: #128081;
+
+}
+
+/*Contacto*/
+
+.contacto{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.contacto .titulo{
+    color: #128081 ;
+    margin-bottom: 40px;
+}
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+
+}
+.contacto .formulario .boton{
+    background:#128081;
+    cursor: pointer;
+    border: none;
+    padding: 7px 30px;
+    width: auto;
+    border-radius: 3px;
+    color: #fff;
+}
+.contacto .formulario .boton:hover{
+    background: #0f6364;
+}
+/*Footer*/
+.redes-sociales{
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.redes-sociales .icono{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background:  #cbcbcb;
+    border-radius: 100px;
+    margin: 0px 20px;
+    display: inline-block;
+}
+.redes-sociales .icono svg{
+    width: 40px;
+    height: 40px;
+}
+.redes-sociales .facebook{
+    background: #3b5998;
+}
+.redes-sociales .instagram{
+    background: #833ab4;
+}
+.redes-sociales .telegram{
+    background: #000;
+}
+
